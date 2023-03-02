@@ -1,0 +1,7 @@
+
+services:
+  py:
+    image: youtubeimagen:latest
+    build: .
+    volumes:
+      - ./app:/usr/src/app

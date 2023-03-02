@@ -3,14 +3,12 @@ from pytube import YouTube
 yt = YouTube("https://www.youtube.com/watch?v=aFqTjk3kcEw&ab_channel=Garajedeideas")
 
 #Title of video
-print("Title: ",yt.title)
+print("Titulo: ",yt.title)
 #Number of views of video
-print("Number of views: ",yt.views)
+print("Numero de visitas: ",yt.views)
 #Length of the video
-print("Length of video: ",yt.length,"seconds")
+print("Duración del video: ",yt.length,"seconds")
 #Description of video
 print("Description: ",yt.description)
 #Rating
-print("Ratings: ",yt.rating)
-
-#XD
+print("Puntación: ",yt.rating)

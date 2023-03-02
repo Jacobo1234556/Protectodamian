@@ -5,3 +5,5 @@ services:
     build: .
     volumes:
       - ./app:/usr/src/app
+
+#Estrucutura

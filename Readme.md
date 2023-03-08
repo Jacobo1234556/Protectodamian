@@ -49,9 +49,10 @@ A continuación creo la imagen con el comando ```docker build -t nombre_de_mi_im
 ![Imagen](https://github.com/Jacobo1234556/Protectodamian/blob/master/Imagenes/Captura%20de%20pantalla%20de%202023-03-08%2018-27-11.png?raw=true)
 
 * **Crea un docker-compose.yml para lanzar el contenedor**
-    ``` yml
+    
+  ``` yml
     services:
-  py:
+    py:
     image: youtubeimagen:latest
     build: .
     volumes:
@@ -62,6 +63,7 @@ A continuación creo la imagen con el comando ```docker build -t nombre_de_mi_im
     command: python3 Damian_1.py
  
     ```
-* Date de alta en docker-hub, para poder subirla y hacerla pública
-    Crea un repositorio en docker-hub y sube tu imágen
+* **Date de alta en docker-hub, para poder subirla y hacerla pública**
+
+* Crea un repositorio en docker-hub y sube tu imágen
 

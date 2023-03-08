@@ -1,4 +1,3 @@
-
 services:
   py:
     image: youtubeimagen:latest
@@ -9,4 +8,3 @@ services:
     tty: true
     working_dir: /usr/src/app
     command: python3 Damian_1.py
-#Estrucutura

@@ -1,6 +1,6 @@
 from pytube import YouTube
 
-yt = YouTube("https://www.youtube.com/watch?v=aFqTjk3kcEw&ab_channel=Garajedeideas")
+yt = YouTube("https://www.youtube.com/watch?v=UJETerHAdJE")
 
 #Title of video
 print("Titulo: ",yt.title)

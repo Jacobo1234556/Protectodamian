@@ -5,5 +5,8 @@ services:
     build: .
     volumes:
       - ./app:/usr/src/app
-
+    stdin_open: true
+    tty: true
+    working_dir: /usr/src/app
+    command: python Damian_1.py
 #Estrucutura

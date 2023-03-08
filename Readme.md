@@ -3,13 +3,37 @@
 
 ---
 
-Empezamos descargnado une librería de python, la cual, nos permite descargarnos videos de youtube, esto lo aremos con los siguientes comandos 
+* Utiliza docker hub para encontrar la imagen de python
+
 ```yml
 FROM python:3
 
 RUN pip install pytube
 
 ```
+
+    
+* Personaliza la imagen (usa el fichero Dockerfile) añadiendole:
+
+```yml
+FROM python:3
+
+RUN pip install pytube
+
+
+```
+
+* Construye la nueva imagen con 'docker build'
+
+![Imagen](https://i.imgur.com/dWgMmFr.png)
+
+    Pruebala con "docker run"
+    Crea un docker-compose.yml para lanzar el contenedor
+    Date de alta en docker-hub, para poder subirla y hacerla pública
+    Crea un repositorio en docker-hub y sube tu imágen
+
+Empezamos descargnado une librería de python, la cual, nos permite descargarnos videos de youtube, esto lo aremos con los siguientes comandos 
+
 Para crear nuestra propia imagen personalizada de un contenedor de docker debemos ejecutar el comando:
 
 

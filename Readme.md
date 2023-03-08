@@ -65,7 +65,7 @@ A continuación creo la imagen con el comando ```docker build -t nombre_de_mi_im
     ```
 * **Date de alta en docker-hub, para poder subirla y hacerla pública**
 
-
+![img.png](https://github.com/Jacobo1234556/Protectodamian/blob/master/Imagenes/img.png?raw=true)
 
 * **Crea un repositorio en docker-hub y sube tu imágen**
 

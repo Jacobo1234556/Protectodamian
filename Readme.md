@@ -109,6 +109,8 @@ Por ultimo subo la imagen con el comando ``` sudo docker push jacobocatelao/yout
 Una vez hecho estó ya tenemos la imagén subida y lista para usar
 ![img.png](https://github.com/Jacobo1234556/Protectodamian/blob/master/Imagenes/Captura%20desde%202023-03-09%2016-07-20.png?raw=true)
 
-Puedes probar el funcionamiento en el siguiente enlace
+Puedes probar el funcionamiento utilizando el comando ``` docker pull jacobocatelao/youtube:latest ``` y el comando ``` docker run jacobocatelao/youtube:latest ```
 
 https://hub.docker.com/repository/docker/jacobocatelao/youtube/general
+
+

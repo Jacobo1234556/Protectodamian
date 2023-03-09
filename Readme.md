@@ -84,5 +84,8 @@ Despues creo un tag con el comando ```docker tag appyoutube:latest jacobocatelao
 
 Por ultimo subo la imagen con el comando ``` sudo docker push jacobocatelao/youtube:latest ```
 
-![img.png](https://github.com/Jacobo1234556/Protectodamian/blob/master/Imagenes/Captura%20de%20pantalla%20de%202023-03-08%2019-42-24.png?raw=true)
+![img.png](https://github.com/Jacobo1234556/Protectodamian/blob/master/Imagenes/captura.png?raw=true)
 
+Una vez hecho estó ya tenemos la imagén subida y lista para usar
+
+![img.png](https://github.com/Jacobo1234556/Protectodamian/blob/master/Imagenes/captura.png?raw=true)

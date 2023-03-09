@@ -1,12 +1,10 @@
 
-FROM node:16
+FROM python:3
 
-WORKDIR /app
+WORKDIR /usr/src/app
 
-COPY package.json ./
+RUN pip install pytube
 
-RUN npm install
+COPY ./app /usr/src/app
 
-COPY . .
-
-CMD ["npm", "start"]
+CMD ["phython", "myscript.py"]

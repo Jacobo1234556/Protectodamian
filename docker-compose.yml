@@ -1,6 +1,6 @@
 services:
   py:
-    image: appyoutube
+    image: appyoutube:latest
     build: .
     volumes:
       - .:/usr/src/app

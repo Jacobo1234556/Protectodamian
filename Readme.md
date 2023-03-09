@@ -6,9 +6,18 @@
 * **Utiliza docker hub para encontrar la imagen de python**
 
 ```yml
-FROM python:3
 
-RUN pip install pytube
+FROM node:16
+
+WORKDIR /app
+
+COPY package.json ./
+
+RUN npm install
+
+COPY . .
+
+CMD ["npm", "start"]
 
 ```
 
@@ -92,9 +101,10 @@ Despues creo un tag con el comando ```docker tag appyoutube:latest jacobocatelao
 
 Por ultimo subo la imagen con el comando ``` sudo docker push jacobocatelao/youtube:latest ```
 
-![img.png](https://github.com/Jacobo1234556/Protectodamian/blob/master/Imagenes/captura.png?raw=true)
+![img.png](https://github.com/Jacobo1234556/Protectodamian/blob/master/Imagenes/captura.png?raw=true)  
 
-\
+  
+  
+
 Una vez hecho estó ya tenemos la imagén subida y lista para usar
-
 ![img.png](https://github.com/Jacobo1234556/Protectodamian/blob/master/Imagenes/Captura%20desde%202023-03-09%2016-07-20.png?raw=true)
